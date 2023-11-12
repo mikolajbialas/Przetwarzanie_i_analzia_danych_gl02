@@ -1,4 +1,5 @@
 import requests
+from typing import Union, List
 
 
 class Brewery:
@@ -32,7 +33,7 @@ class Brewery:
         return final_string
 
 
-def get_breweries():
+def get_breweries(city: str = None) -> Union[List, None]:
     response = requests.get('https://api.openbrewerydb.org/v1/breweries')
 
     if response.status_code == 200:
