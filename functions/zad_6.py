@@ -14,6 +14,3 @@ def func(first_list: List[int], sec_list: List[int]) -> List[int]:
         power_3_list.append(num ** 3)
 
     return power_3_list
-
-
-print(func([2, 3, 4, 5], [1, 2, 4, 5]))

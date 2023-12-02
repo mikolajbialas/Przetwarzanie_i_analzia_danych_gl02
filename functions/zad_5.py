@@ -6,9 +6,3 @@ def s_func(list_of_num: List[int], number: int) -> bool:
         return True
     else:
         return False
-
-
-l = [213, 123, 213, 2]
-num = 6
-
-print(s_func(l, num))

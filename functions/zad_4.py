@@ -3,6 +3,3 @@ def check_numbers(num_1: int, num_2: int, num_3: int) -> bool:
         return True
     else:
         return False
-
-
-print(check_numbers(5,2,5))

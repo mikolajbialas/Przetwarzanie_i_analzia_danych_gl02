@@ -3,5 +3,4 @@ def return_full_name(name: str, surname: str) -> str:
     return final_str
 
 
-string = return_full_name('Mikolaj', 'Bialas')
-print(string)
+
