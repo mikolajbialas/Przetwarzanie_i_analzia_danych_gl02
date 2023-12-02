@@ -19,8 +19,3 @@ class Student:
             return False
 
 
-student_01 = Student('Maciek', [80, 100, 70])
-student_02 = Student('Kamil', [20, 30, 15])
-
-print(student_01.is_passed())
-print(student_02.is_passed())
