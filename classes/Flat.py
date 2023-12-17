@@ -2,7 +2,9 @@ from classes.Property import Property
 
 
 class Flat(Property):
-    def __init__(self, area: int, rooms: int, price: int, address: str, floor: int):
+    def __init__(
+        self, area: int, rooms: int, price: int, address: str, floor: int
+    ):
         super().__init__(area, rooms, price, address)
         self.floor = floor
 

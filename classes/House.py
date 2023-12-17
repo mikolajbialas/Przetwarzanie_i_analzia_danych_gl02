@@ -2,7 +2,9 @@ from classes.Property import Property
 
 
 class House(Property):
-    def __init__(self, area: int, rooms: int, price: int, address: str, plot: int):
+    def __init__(
+        self, area: int, rooms: int, price: int, address: str, plot: int
+    ):
         super().__init__(area, rooms, price, address)
         self.plot = plot
 

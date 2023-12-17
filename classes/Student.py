@@ -17,5 +17,3 @@ class Student:
             return True
         else:
             return False
-
-
